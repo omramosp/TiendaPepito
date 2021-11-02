@@ -8,6 +8,7 @@ dontenv.config(); // para que cuando ejecute el servidor las variables esten lis
 const app = express();
 
 app.use(express.json());
+//reglas de conexión entre front y back.
 app.use(cors());
 app.use("/api/product", product);
 
